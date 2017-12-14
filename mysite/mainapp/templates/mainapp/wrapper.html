@@ -12,18 +12,19 @@
 <div class="jumbotron">
     <div class="container">
         <h1>Здраствуйте</h1>
-      <p>{% block content %}
-      {% endblock %}
-        <a href="/" class="btn btn-success btn-lg">Главная страница</a>
-        <a href="/news" class="btn btn-primary btn-lg"> Новости &raquo;</a>
-        <a href="/contact" class="btn btn-info btn-lg"> Контактная форма </a>
-      </p>
+        <p>
+            {% block content %}
+            {% endblock %}
+            <a href="/" class="btn btn-success btn-lg">Главная страница</a>
+            <a href="/news" class="btn btn-primary btn-lg"> Новости &raquo;</a>
+            <a href="/contact" class="btn btn-info btn-lg"> Контактная форма </a>
+        </p>
     </div>
-  </div>
-  <div class="container">
+</div>
+<div class="container">
     <img src="{% static 'mainApp/image/mercedes.png' %}" class="img-thumbnail">
     <hr>
     &copy; Все права защищены 2018
-  </div>
+</div>
 </body>
 </html>
