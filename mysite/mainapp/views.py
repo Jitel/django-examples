@@ -7,6 +7,6 @@ def index (request):
 def contact (request):
     return render(request, 'mainapp/basic.html', {'values':['Если есть вопросы, задайте их по номеру', '+375256208265' ]})
 
-def news (request):
-    return render(request, 'mainapp/news.html')
+#def news (request):
+ #   return render(request, 'mainapp/news.html')
 
